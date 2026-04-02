@@ -15,7 +15,7 @@ public class CustomerService implements ICustomerService {
 
     @Override
     public Iterable<Customer> findAll() {
-        return null;
+        return iCustomerRepository.findAll();
     }
 
     @Override
